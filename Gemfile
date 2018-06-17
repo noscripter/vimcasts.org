@@ -2,18 +2,18 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman"
-gem "middleman-blog", "~> 3.5.1"
-gem 'middleman-s3_sync'
-gem "middleman-syntax"
-gem "nokogiri"
-gem "redcarpet"
+gem "middleman", ">= 4.1.2"
+gem "middleman-blog", "~> 4.0.0"
+gem 'middleman-s3_sync', '>= 3.0.25'
+gem "middleman-syntax", ">= 2.1.0"
+gem "nokogiri", ">= 1.8.2"
+gem "redcarpet", ">= 3.2.3"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload", "~> 3.1.1"
 
 gem "rake"
 gem "pry"
