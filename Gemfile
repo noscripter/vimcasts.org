@@ -4,9 +4,9 @@ source 'http://rubygems.org'
 
 gem "middleman"
 gem "middleman-blog", "~> 3.5.1"
-gem 'middleman-s3_sync'
+gem 'middleman-s3_sync', '>= 3.0.25'
 gem "middleman-syntax"
-gem "nokogiri"
+gem "nokogiri", ">= 1.8.5"
 gem "redcarpet"
 
 # For feed.xml.builder
